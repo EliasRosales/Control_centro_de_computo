@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="350.0" prefWidth="601.0">
+         <children>
+            <TableView layoutY="43.0" prefHeight="357.0" prefWidth="601.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="43.0">
+              <columns>
+                <TableColumn prefWidth="100.0" text="Dato 1" />
+                  <TableColumn prefWidth="100.0" text="Dato 2" />
+                  <TableColumn prefWidth="100.0" text="Dato 3" />
+                  <TableColumn prefWidth="100.0" text="Dato 4" />
+                  <TableColumn prefWidth="100.0" text="Dato 5" />
+                  <TableColumn prefWidth="100.0" text="Dato 6" />
+              </columns>
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Agregar" />
+                        <MenuItem mnemonicParsing="false" text="Modificar" />
+                        <MenuItem mnemonicParsing="false" text="Eliminar" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </TableView>
+            <MenuButton layoutX="25.0" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="Tipo de busqueda">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Opcion 1" />
+                <MenuItem mnemonicParsing="false" text="Opcion 2" />
+                  <MenuItem mnemonicParsing="false" text="Opcion 3" />
+              </items>
+            </MenuButton>
+            <TextField layoutX="181.0" layoutY="10.0" prefHeight="29.0" prefWidth="392.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
